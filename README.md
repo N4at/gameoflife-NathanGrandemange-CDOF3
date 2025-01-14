@@ -11,10 +11,13 @@ Chaque cellule observe ses huit voisins – les cellules situées autour d’ell
 
 # Règles de vie et de mort
 Naissance : Une cellule morte ayant exactement trois voisins vivants prend vie à la génération suivante.
+
 Survie : Une cellule vivante ayant deux ou trois voisins vivants reste en vie à la génération suivante.
+
 Mort :
 Une cellule vivante avec moins de deux voisins vivants meurt de solitude.
 Une cellule vivante avec plus de trois voisins vivants meurt par surpopulation.
+
 Génération suivante :
 Après l'application simultanée de ces règles à chaque cellule de la grille, une nouvelle génération est créée. Cette nouvelle disposition remplace l'ancienne, et le cycle recommence.
 
