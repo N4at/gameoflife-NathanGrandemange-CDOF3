@@ -1,0 +1,19 @@
+{
+  "name": "gameoflife-nathangrandemange-cdof3",
+  "version": "1.0.0",
+  "description": "A quick game that show a basic development of cells",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N4at/gameoflife-NathanGrandemange-CDOF3.git"
+  },
+  "author": "Nathan Grandemange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/N4at/gameoflife-NathanGrandemange-CDOF3/issues"
+  },
+  "homepage": "https://github.com/N4at/gameoflife-NathanGrandemange-CDOF3#readme"
+}
