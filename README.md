@@ -1,43 +1,45 @@
-# Le jeu de la Vie de Conway !
+# Conway's Game of Life!
 
-# À propos de ce jeu
-Le Jeu de la Vie de Conway est un automate cellulaire fascinant imaginé par le mathématicien John Conway. Il s'agit d'un jeu qui n'a pas besoin de joueurs, mais qui évolue en fonction de sa configuration initiale. Imaginez une grille de cellules, où chaque cellule peut être vivante ou morte. Voici comment cela fonctionne :
+# About this game
+Conway's Game of Life is a fascinating cellular automaton imagined by mathematician John Conway. It is a game that doesn't need players but evolves based on its initial setup. Imagine a grid of cells, where each cell can either be alive or dead. Here's how it works:
 
-# Mise en place
-Vous commencez par placer des cellules vivantes sur la grille. Cela se fait ici de manière aléatoire (pour l'instant).
+# Setup
+You start by placing living cells on the grid. For now, this is done randomly.
 
-# Les voisins comptent
-Chaque cellule observe ses huit voisins – les cellules situées autour d’elle, horizontalement, verticalement ou en diagonale.
+# Neighbors matter
+Each cell observes its eight neighbors – the cells surrounding it horizontally, vertically, or diagonally.
 
-# Règles de vie et de mort
-Naissance : Une cellule morte ayant exactement trois voisins vivants prend vie à la génération suivante.
+# Rules of life and death
+Birth: A dead cell with exactly three living neighbors comes to life in the next generation.
 
-Survie : Une cellule vivante ayant deux ou trois voisins vivants reste en vie à la génération suivante.
+Survival: A living cell with two or three living neighbors remains alive in the next generation.
 
-Mort :
-Une cellule vivante avec moins de deux voisins vivants meurt de solitude.
-Une cellule vivante avec plus de trois voisins vivants meurt par surpopulation.
+Death:
+A living cell with fewer than two living neighbors dies of loneliness.
+A living cell with more than three living neighbors dies due to overcrowding.
 
-Génération suivante :
-Après l'application simultanée de ces règles à chaque cellule de la grille, une nouvelle génération est créée. Cette nouvelle disposition remplace l'ancienne, et le cycle recommence.
+Next generation:
+After simultaneously applying these rules to each cell on the grid, a new generation is created. This new layout replaces the old one, and the cycle continues.
 
-# Ce qui peut se produire
-A chaque nouvelle génération, divers résultats sont possibles :
+# What can happen
+With each new generation, various outcomes are possible:
 
-Motifs stables : Certaines configurations atteignent un état stable où plus aucun changement ne se produit.
-Oscillation : Certains motifs oscillent entre différentes configurations, se répétant indéfiniment de facon cyclique. 
-Croissance ou déclin : D'autres configurations peuvent croître indéfiniment, se stabiliser dans un motif répétitif ou disparaître complètement.
+Stable patterns: Some configurations reach a stable state where no further changes occur.
 
-Malgré sa simplicité, le Jeu de la Vie de Conway révèle des comportements incroyablement complexes. Il est utilisé dans des domaines tels que l'informatique et la biologie.
+Oscillation: Certain patterns oscillate between different configurations, repeating themselves cyclically.
 
-# Comment contribuer
+Growth or decay: Other configurations may grow indefinitely, stabilize into a repetitive pattern, or disappear completely.
 
-Vous souhaitez contribuer à ce projet ? Voici comment procéder :
+Despite its simplicity, Conway's Game of Life reveals incredibly complex behaviors. It is used in fields such as computer science and biology.
 
-1.Clonez le dépôt GitHub 
+# How to contribute
 
-2.Apportez vos modifications ou améliorez le code existant
+Would you like to contribute to this project? Here's how:
 
-3.Soumettez une pull request décrivant clairement vos contributions.
+1. Clone the GitHub repository.
 
-N'hésitez pas à signaler des bugs ou à proposer de nouvelles idées pour enrichir ce projet. Toute participation est la bienvenue !
+2. Make your changes or improve the existing code.
+
+3. Submit a pull request clearly describing your contributions.
+
+Feel free to report bugs or suggest new ideas to enhance this project. Any contribution is welcome!
