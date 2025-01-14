@@ -1,15 +1,15 @@
 # gameoflife-NathanGrandemange-CDOF3
 
-#À propos du Jeu de la Vie de Conway
+# À propos du Jeu de la Vie de Conway
 Le Jeu de la Vie de Conway est un automate cellulaire fascinant imaginé par le mathématicien John Conway. Il s'agit d'un jeu qui n'a pas besoin de joueurs, mais qui évolue en fonction de sa configuration initiale. Imaginez une grille de cellules, où chaque cellule peut être vivante ou morte. Voici comment cela fonctionne :
 
-#Mise en place
+# Mise en place
 Vous commencez par placer des cellules vivantes sur la grille. Cela se fait ici de manière aléatoire (pour l'instant).
 
-#Les voisins comptent
+# Les voisins comptent
 Chaque cellule observe ses huit voisins – les cellules situées autour d’elle, horizontalement, verticalement ou en diagonale.
 
-#Règles de vie et de mort
+# Règles de vie et de mort
 Naissance : Une cellule morte ayant exactement trois voisins vivants prend vie à la génération suivante.
 Survie : Une cellule vivante ayant deux ou trois voisins vivants reste en vie à la génération suivante.
 Mort :
@@ -18,7 +18,7 @@ Une cellule vivante avec plus de trois voisins vivants meurt par surpopulation.
 Génération suivante :
 Après l'application simultanée de ces règles à chaque cellule de la grille, une nouvelle génération est créée. Cette nouvelle disposition remplace l'ancienne, et le cycle recommence.
 
-#Ce qui peut se produire
+# Ce qui peut se produire
 A chaque nouvelle génération, divers résultats sont possibles :
 
 Motifs stables : Certaines configurations atteignent un état stable où plus aucun changement ne se produit.
